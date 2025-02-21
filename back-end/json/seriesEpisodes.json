@@ -1,0 +1,74 @@
+[
+  {
+    "Duration": 53,
+    "EpisodeNumber": 1,
+    "ID": "EPI-01",
+    "Image": "https://agile-releases.s3.us-east-1.amazonaws.com/tests/assets/034570233.jpeg",
+    "SeasonNumber": 1,
+    "Synopsis": "Londres, 1891. A polícia investiga uma série de assassinatos, mas Sir Malcolm Murray e a bela Vanessa Ives sabem que há algo mais sombrio por trás de tudo.",
+    "Title": "Trabalho Noturno"
+  },
+  {
+    "Duration": 56,
+    "EpisodeNumber": 2,
+    "ID": "EPI-02",
+    "Image": "https://agile-releases.s3.us-east-1.amazonaws.com/tests/assets/0989084209.jpeg",
+    "SeasonNumber": 1,
+    "Synopsis": "Vanessa e Sir Malcolm vão a uma festa na casa do egiptólogo Sir Ferdinand Lyle e encontram o belo e enigmático Dorian Gray.",
+    "Title": "Sessão Espírita"
+  },
+  null,
+  {
+    "Duration": 48,
+    "EpisodeNumber": 3,
+    "ID": "EPI-03",
+    "Image": "https://agile-releases.s3.us-east-1.amazonaws.com/tests/assets/127397234.jpeg",
+    "SeasonNumber": 1,
+    "Synopsis": "O Dr. Frankenstein enfrenta seu passado. Vanessa tem uma visão de Mina, levando o grupo a capturar Fenton, servo de um vampiro.",
+    "Title": "Ressurreição"
+  },
+  {
+    "Duration": 60,
+    "EpisodeNumber": 4,
+    "ID": "EPI-04",
+    "Image": "https://agile-releases.s3.us-east-1.amazonaws.com/tests/assets/18198341845.jpeg",
+    "SeasonNumber": 1,
+    "Synopsis": "Vanessa fica cada vez mais fascinada com Dorian Gray. Van Helsing e Frankenstein tentam encontrar uma cura para a doença da filha de Sir Malcolm.",
+    "Title": "Submundo"
+  },
+  {
+    "Duration": 55,
+    "EpisodeNumber": 1,
+    "ID": "EPI-05",
+    "Image": "https://agile-releases.s3.us-east-1.amazonaws.com/tests/assets/18273891273.jpeg",
+    "SeasonNumber": 2,
+    "Title": "Um novo inferno"
+  },
+  {
+    "Duration": 53,
+    "EpisodeNumber": 2,
+    "ID": "EPI-06",
+    "Image": "https://agile-releases.s3.us-east-1.amazonaws.com/tests/assets/234u092384.jpeg",
+    "SeasonNumber": 2,
+    "Synopsis": "Assombrada pelas bruxas, Vanessa busca conforto em Sir Malcolm. O inspetor Rusk, da Scotland Yard, procura o único sobrevivente de um massacre.",
+    "Title": "Verbis diablo"
+  },
+  {
+    "Duration": 58,
+    "EpisodeNumber": 3,
+    "ID": "EPI-07",
+    "Image": "https://agile-releases.s3.us-east-1.amazonaws.com/tests/assets/30945834905.jpeg",
+    "SeasonNumber": 2,
+    "Synopsis": "Em um flashback, Vanessa conhece uma mulher que a ensina como aproveitar seus poderes e que faz um alerta sobre os perigos que a perseguem.",
+    "Title": "As noturnas"
+  },
+  {
+    "Duration": 51,
+    "EpisodeNumber": 4,
+    "ID": "EPI-08",
+    "Image": "https://agile-releases.s3.us-east-1.amazonaws.com/tests/assets/90128312349.jpeg",
+    "SeasonNumber": 2,
+    "Synopsis": "Lyle revela que as relíquias contam uma história perturbadora. O inspetor Rusk conversa com o sobrevivente do ataque.",
+    "Title": "Espíritos malignos em lugares celestiais"
+  }
+]
