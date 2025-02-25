@@ -16,7 +16,9 @@ export interface Series {
   ID: number;
   Title: string;
   Year: number;
+  Reviews: number;
   Synopsis: string;
+  Country: string;
   Genres: Genre[];
   Cast: CastMember[];
   Images: Images;
