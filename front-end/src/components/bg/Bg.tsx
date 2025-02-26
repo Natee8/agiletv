@@ -1,6 +1,6 @@
 import styled from "./bg.module.css";
-import Infos from "./InfosBg";
 import { useApiContext } from "../../hooks/useApiContext";
+import Infos from "./infosBg";
 
 const Background: React.FC = () => {
   const { selectedSeries, loading, error } = useApiContext();
@@ -11,9 +11,9 @@ const Background: React.FC = () => {
   //Images.Background;
 
   return (
-    <div>
+    <div className={styled.container}>
       <div
-        className={styled.container}
+        className={styled.imageLayer}
         style={{ backgroundImage: `url(${selectedSeries?.Images.Background})` }}
       ></div>
       <Infos Title={selectedSeries?.Title} />

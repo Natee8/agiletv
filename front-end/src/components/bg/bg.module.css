@@ -1,13 +1,19 @@
-.container {
+.imageLayer {
   width: 100%;
-  min-height: 500px;
+  height: 100%;
   overflow: hidden;
-  position: relative;
   background-position: top;
   background-size: 1300px;
 }
 
-.container::after {
+.container {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  height: 70% !important;
+}
+
+.imageLayer::after {
   content: "";
   position: absolute !important;
   top: 0;
@@ -17,7 +23,7 @@
   background: radial-gradient(
     circle,
     rgba(0, 0, 0, 0.4) 10%,
-    rgba(0, 0, 0, 0.9) 90%
+    rgba(0, 0, 0, 0.6) 90%
   );
   pointer-events: none;
 }

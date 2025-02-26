@@ -1,0 +1,7 @@
+.textTitle p {
+  font-size: 1rem;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+}

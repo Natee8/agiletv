@@ -1,9 +1,12 @@
-const TextReuse = () => {
+import { Utils } from "../types/utils";
+import styles from "./texts.module.css";
+
+const TextP: React.FC<Partial<Utils>> = ({ text }) => {
   return (
-    <div>
-      <p></p>
+    <div className={styles.textTitle}>
+      <p>{text}</p>
     </div>
   );
 };
 
-export default TextReuse;
+export default TextP;
