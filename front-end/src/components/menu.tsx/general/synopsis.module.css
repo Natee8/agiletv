@@ -1,0 +1,15 @@
+.textStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.textStyle h1 {
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.textStyle p {
+  text-align: justify;
+  font-weight: 300;
+  letter-spacing: 1px;
+}

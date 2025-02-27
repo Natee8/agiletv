@@ -1,0 +1,15 @@
+.cardContainer {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+
+  gap: 15%;
+
+  color: white;
+}
+
+.cardContainer::-webkit-scrollbar {
+  display: none;
+}

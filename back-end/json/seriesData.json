@@ -3,47 +3,58 @@
     "Cast": [
       {
         "ID": "PER-04",
-        "Name": "Maggie Q"
+        "Name": "Maggie Q",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-05",
-        "Name": "Samuel L. Jackson"
+        "Name": "Samuel L. Jackson",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-06",
-        "Name": "Rose Byrne"
+        "Name": "Rose Byrne",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-07",
-        "Name": "Michael Fassbender"
+        "Name": "Michael Fassbender",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-08",
-        "Name": "Rachel Weisz"
+        "Name": "Rachel Weisz",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-09",
-        "Name": "Eva Mendes"
+        "Name": "Eva Mendes",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-10",
-        "Name": "Jake Gyllenhaal"
+        "Name": "Jake Gyllenhaal",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-11",
-        "Name": "Scarlett Johansson"
+        "Name": "Scarlett Johansson",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-12",
-        "Name": "James McAvoy"
+        "Name": "James McAvoy",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-13",
-        "Name": "Hugh Jackman"
+        "Name": "Hugh Jackman",
+        "Character": "Atriz ou Ator"
       },
       {
         "ID": "PER-14",
-        "Name": "Anne Hathaway"
+        "Name": "Anne Hathaway",
+        "Character": "Atriz ou Ator"
       }
     ],
     "Genres": [

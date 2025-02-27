@@ -1,7 +1,7 @@
 import styles from "./menu.module.css";
 import icon from "../../assets/images/favIcon.svg";
 import TextP from "../../utils/textReuse";
-import Scroll from "../../utils/scrollAnimation";
+import Scroll from "../../utils/scroll";
 const FilterTabs: React.FC = () => {
   return (
     <div className={styles.spacingElements}>

@@ -1,6 +1,7 @@
 export interface CastMember {
   ID: string;
   Name: string;
+  Character: string
 }
 
 export interface Genre {

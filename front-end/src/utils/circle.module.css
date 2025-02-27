@@ -1,0 +1,14 @@
+.borderContainer {
+  width: 35px;
+  height: 35px;
+
+  border: 100%;
+  border-radius: 100%;
+  border: solid 1px rgba(255, 255, 255, 0.53);
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

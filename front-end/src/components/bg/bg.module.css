@@ -2,15 +2,18 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+
   background-position: top;
   background-size: 1300px;
 }
 
 .container {
   width: 100%;
-  position: relative;
-  z-index: -1;
   height: 70% !important;
+
+  position: relative;
+
+  z-index: -1;
 }
 
 .imageLayer::after {
@@ -20,18 +23,21 @@
   left: 0;
   right: 0;
   bottom: 0;
+
   background: radial-gradient(
     circle,
     rgba(0, 0, 0, 0.4) 10%,
     rgba(0, 0, 0, 0.6) 90%
   );
+
   pointer-events: none;
 }
 
 .titlePosition {
   color: white;
-  position: absolute;
   margin: 1.4rem;
+
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -44,8 +50,15 @@
 }
 
 .pLight p {
+  cursor: pointer;
+
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 300;
+
   color: rgba(255, 255, 255, 0.684);
+}
+
+.pLight span:hover {
+  color: rgb(255, 255, 255);
 }
