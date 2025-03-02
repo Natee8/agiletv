@@ -3,9 +3,10 @@
   width: auto;
   height: 120px;
 
-  border-radius: 8px;
   background-color: #000000;
   color: rgb(255, 255, 255);
+
+  border-radius: 8px;
   border: solid 1px transparent;
   border-image: linear-gradient(to right, rgb(94, 94, 94), rgb(42, 42, 42)) 1;
   flex-shrink: 0;
@@ -14,6 +15,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  transition: all;
+  transition-duration: 400ms;
+}
+
+.cardContainer:hover {
+  border-image: linear-gradient(to right, rgb(42, 42, 42), rgb(94, 94, 94)) 1;
 }
 
 .cardContainer h1 {

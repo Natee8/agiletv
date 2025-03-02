@@ -1,7 +1,7 @@
 .cardContainer {
-  width: 90%;
+  width: 95%;
   height: 200px;
-  display: flex;
+  display: none;
   align-items: center;
   overflow: scroll;
 

@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   color: rgba(255, 255, 255, 0.53);
@@ -8,6 +9,7 @@
 
 .sizeP {
   font-size: 13px;
+  text-wrap: nowrap;
 }
 
 .centralize {
@@ -17,4 +19,11 @@
   text-align: center;
 
   gap: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+    justify-content: space-between;
+  }
 }

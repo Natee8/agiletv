@@ -4,9 +4,9 @@
   width: auto;
   height: auto;
   max-width: 600px;
-  padding: 1rem;
+  padding: 0.6rem;
 
-  display: flex;
+  display: none;
   align-items: end;
   justify-content: start;
   gap: 15px;
@@ -16,6 +16,13 @@
 
   border: solid 1px transparent;
   border-image: linear-gradient(to right, rgb(255, 219, 120), rgb(42, 42, 42)) 1;
+
+  transition: all;
+  transition-duration: 400ms;
+}
+
+.trophyStyle:hover {
+  border-image: linear-gradient(to right, rgb(42, 42, 42), rgb(255, 219, 120)) 1;
 }
 
 .trophyStyle p {

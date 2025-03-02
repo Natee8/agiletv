@@ -12,12 +12,11 @@
   height: 70% !important;
 
   position: relative;
-
-  z-index: -1;
 }
 
 .imageLayer::after {
   content: "";
+
   position: absolute !important;
   top: 0;
   left: 0;
@@ -35,13 +34,48 @@
 
 .titlePosition {
   color: white;
-  margin: 1.4rem;
+  margin: 3%;
+
+  display: flex;
+  flex-direction: column;
 
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.btnPlay {
+  margin: 2rem;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  z-index: 3;
+}
+
+.btnPlay button {
+  width: 15rem;
+
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.btnPlay button:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.886);
+  border: 0;
 }
 
 .titlePosition h1 {

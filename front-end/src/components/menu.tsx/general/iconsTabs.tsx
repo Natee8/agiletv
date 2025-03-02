@@ -3,6 +3,7 @@ import styles from "./icons.module.css";
 import { IoAddSharp } from "react-icons/io5";
 import { PiShareFatLight } from "react-icons/pi";
 import { TiMediaRecord } from "react-icons/ti";
+import { CiStar } from "react-icons/ci";
 const Icons: React.FC = () => {
   return (
     <div className={styles.container}>
@@ -11,7 +12,7 @@ const Icons: React.FC = () => {
         <p className={styles.sizeP}>Minha Lista</p>
       </div>
       <div className={styles.centralize}>
-        <BorderIcons icon={<IoAddSharp />} />
+        <BorderIcons icon={<CiStar />} />
         <p className={styles.sizeP}>Avaliar</p>
       </div>
       <div className={styles.centralize}>

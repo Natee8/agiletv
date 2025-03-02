@@ -1,5 +1,5 @@
 import useFetchSeries from "../hooks/useSeries";
-import { ApiContext } from "./createContextApi";
+import { ApiContext } from "./createContextSeries";
 import { ApiProvidersProps } from "../types/providerProps";
 
 export const ApiProvider = ({ children }: ApiProvidersProps) => {

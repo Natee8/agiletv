@@ -6,8 +6,10 @@
 }
 
 .scroll {
-  width: 60px;
   height: 100%;
-  
   background-color: rgb(153, 250, 218);
+}
+
+.general {
+  width: 50px;
 }

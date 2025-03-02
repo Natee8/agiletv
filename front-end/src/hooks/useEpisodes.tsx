@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const useFetchEpisodes = () => {
   const [episodes, setEpisodes] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [erro, setError] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchEpisodes = async () => {
@@ -20,7 +20,7 @@ const useFetchEpisodes = () => {
     };
     fetchEpisodes();
   }, []);
-  return { episodes, loading, erro };
+  return { episodes, loading, error };
 };
 
 export default useFetchEpisodes;
