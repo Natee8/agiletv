@@ -5,10 +5,9 @@
   display: flex;
   flex-direction: column;
   position: relative;
+
   gap: 6vh;
-
   box-sizing: border-box;
-
   overflow-x: hidden;
 
   z-index: 2;
@@ -29,6 +28,7 @@
 .spacingElements {
   display: flex;
   flex-direction: column;
+
   gap: 10px;
 }
 
@@ -38,20 +38,15 @@
   justify-content: space-between;
 
   color: white;
-
   border-bottom: 1px solid rgba(255, 255, 255, 0.185);
 }
 
 .textContainer p {
   height: 40px;
   cursor: pointer;
-}
 
-.textContainer p:hover {
-  color: rgba(255, 255, 255, 0.593);
   transition: all;
   transition-duration: 200ms;
-  border-bottom: 1px solid rgb(153, 250, 218);
 }
 
 .textContainer {
@@ -59,18 +54,43 @@
   max-width: 100%;
   height: auto;
 
-  overflow: scroll;
+  overflow-x: auto;
+
   display: flex;
   gap: 20%;
+  position: relative;
 }
 
 .textContainer::-webkit-scrollbar {
-  display: none;
+  height: 4px;
+  background: transparent;
+}
+
+.textContainer::-webkit-scrollbar-thumb {
+  width: 6px;
+
+  background-color: rgb(153, 250, 218);
+  border-radius: 5px;
+}
+
+.textContainer::before {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 4px;
+
+  border-radius: 5px;
+  background-color: transparent;
 }
 
 .arrowNav {
   color: white;
   font-size: 30px;
+
   cursor: pointer;
 
   position: absolute;
@@ -96,5 +116,13 @@
 @media only screen and (min-width: 768px) {
   .play {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .textContainer p:hover {
+    color: rgba(255, 255, 255, 0.593);
+
+    border-bottom: 1px solid rgb(153, 250, 218);
   }
 }

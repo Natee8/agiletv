@@ -12,10 +12,16 @@ const Cast: React.FC = () => {
     <div className={styles.containerRelative}>
       <div className={styles.cardContainer}>
         {selectedSeries?.Cast.map((cast) => (
-          <Card ID={cast.ID} Name={cast.Name} Character={cast.Character} />
+          <Card
+            key={cast.ID}
+            ID={cast.ID}
+            Name={cast.Name}
+            Character={cast.Character}
+          />
         ))}
       </div>
     </div>
   );
 };
+
 export default Cast;

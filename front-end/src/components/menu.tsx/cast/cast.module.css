@@ -1,17 +1,31 @@
 .cardContainer {
-  width: 95%;
-  height: auto;
+  width: 100%;
+  height: 200px;
   display: flex;
   align-items: center;
-  overflow: scroll;
-
-  border-bottom: 5rem;
-
-  gap: 15%;
-
-  color: white;
+  overflow-x: auto;
+  gap: 10%;
+  padding-bottom: 10px;
+  position: relative;
 }
 
 .cardContainer::-webkit-scrollbar {
-  display: none;
+  height: 6px;
+  background: transparent;
+}
+
+.cardContainer::-webkit-scrollbar-thumb {
+  width: 6px;
+  background-color: rgb(153, 250, 218);
+  border-radius: 5px;
+}
+
+.cardContainer::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
 }

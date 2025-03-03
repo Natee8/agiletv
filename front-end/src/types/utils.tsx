@@ -7,5 +7,5 @@ export interface Utils {
 }
 
 export interface ScrollProp {
-  width: string;
+  scrollMove: string;
 }
