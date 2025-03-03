@@ -1,5 +1,5 @@
 import styled from "./bg.module.css";
-import { useApiContext } from "../../hooks/useApiContext";
+import { useApiContext } from "../../hooks/useApiSeries";
 import Infos from "./infosBg";
 
 const Background: React.FC = () => {

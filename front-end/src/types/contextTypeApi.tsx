@@ -8,7 +8,7 @@ export interface ApiContextTypeSeries {
 }
 
 export interface ApiContextTypeEpisodes {
-  selectedEpisodes: Episodes | null;
+  episodes: Episodes[] | null;
   loading: boolean;
   error: string | null;
 }

@@ -17,7 +17,6 @@
     "Synopsis": "Vanessa e Sir Malcolm vão a uma festa na casa do egiptólogo Sir Ferdinand Lyle e encontram o belo e enigmático Dorian Gray.",
     "Title": "Sessão Espírita"
   },
-  null,
   {
     "Duration": 48,
     "EpisodeNumber": 3,
@@ -42,6 +41,7 @@
     "ID": "EPI-05",
     "Image": "https://agile-releases.s3.us-east-1.amazonaws.com/tests/assets/18273891273.jpeg",
     "SeasonNumber": 2,
+    "Synopsis": "Vanessa fica cada vez mais fascinada com Dorian Gray. Van Helsing e Frankenstein tentam encontrar uma cura para a doença da filha de Sir Malcolm.",
     "Title": "Um novo inferno"
   },
   {

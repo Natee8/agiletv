@@ -1,4 +1,4 @@
-import { useApiContext } from "../../../hooks/useApiContext";
+import { useApiContext } from "../../../hooks/useApiSeries";
 import Card from "../../../utils/card";
 import styles from "./cast.module.css";
 

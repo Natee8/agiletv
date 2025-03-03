@@ -5,5 +5,9 @@ export interface Episodes {
   SeasonNumber: number;
   Duration: number;
   Image: string;
-  Synopisis?: string;
+  Synopsis?: string;
+}
+
+export interface EpisodeList {
+  Episodes: Episodes[];
 }

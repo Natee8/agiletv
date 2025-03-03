@@ -1,6 +1,47 @@
 .container {
   max-width: 100%;
-  overflow-wrap: break-word;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.img {
+  width: 100%;
+  height: 150px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 7%;
+  background-position: center;
+
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.img p {
+  font-size: 15px;
+}
+
+.barContainer {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barDuration {
+  background-color: rgba(255, 254, 254, 0.711);
+
+  width: 90%;
+  height: 2px;
+}
+
+.synopsis {
   word-wrap: break-word;
-  white-space: normal;
+  overflow-wrap: break-word;
+
+  margin-bottom: 1rem;
 }

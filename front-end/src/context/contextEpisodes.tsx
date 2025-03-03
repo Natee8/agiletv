@@ -1,14 +1,12 @@
 import useFetchEpisodes from "../hooks/useEpisodes";
 import { ApiContext } from "./createContextEpisodes";
-import { ApiProvidersProps } from "../types/providerProps";
+import { ProvidersProps } from "../types/providerProps";
 
-export const ApiProvider = ({ children }: ApiProvidersProps) => {
+export const ApiProviderEps = ({ children }: ProvidersProps) => {
   const { episodes, loading, error } = useFetchEpisodes();
 
-  const selectedEpisodes = episodes?.[0] || null;
-
   return (
-    <ApiContext.Provider value={{ selectedEpisodes, loading, error }}>
+    <ApiContext.Provider value={{ episodes, loading, error }}>
       {children}
     </ApiContext.Provider>
   );

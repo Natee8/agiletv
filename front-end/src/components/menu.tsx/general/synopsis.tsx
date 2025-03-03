@@ -1,4 +1,4 @@
-import { useApiContext } from "../../../hooks/useApiContext";
+import { useApiContext } from "../../../hooks/useApiSeries";
 import styles from "./synopsis.module.css";
 
 const Synopsis: React.FC = () => {

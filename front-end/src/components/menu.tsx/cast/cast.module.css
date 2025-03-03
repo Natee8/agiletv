@@ -1,9 +1,11 @@
 .cardContainer {
   width: 95%;
-  height: 200px;
-  display: none;
+  height: auto;
+  display: flex;
   align-items: center;
   overflow: scroll;
+
+  border-bottom: 5rem;
 
   gap: 15%;
 

@@ -1,4 +1,4 @@
-import { useApiContext } from "../../hooks/useApiContext";
+import { useApiContext } from "../../hooks/useApiSeries";
 import { Genre } from "../../types/series";
 import styles from "./bg.module.css";
 

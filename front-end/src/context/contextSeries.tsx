@@ -1,8 +1,8 @@
 import useFetchSeries from "../hooks/useSeries";
 import { ApiContext } from "./createContextSeries";
-import { ApiProvidersProps } from "../types/providerProps";
+import { ProvidersProps } from "../types/providerProps";
 
-export const ApiProvider = ({ children }: ApiProvidersProps) => {
+export const ApiProviderSeries = ({ children }: ProvidersProps) => {
   const { series, loading, error } = useFetchSeries();
 
   const selectedSeries = series?.[0] || null;

@@ -1,12 +1,38 @@
 .episodes {
   display: flex;
-  justify-content: space-between;
-  height: 100%;
-  overflow: hidden;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
 
-  padding: 1rem;
+  align-items: center;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.185);
+  margin: 0.3rem;
+}
+
+.infoEps {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+
+  text-align: center;
+}
+
+.container {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  height: 290px;
+}
+
+.container::-webkit-scrollbar {
+  display: flex;
+}
+
+.title {
+  cursor: pointer;
+}
+.title:hover {
+  color: rgba(255, 255, 255, 0.804);
 }

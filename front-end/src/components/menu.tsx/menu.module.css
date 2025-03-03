@@ -8,13 +8,15 @@
   position: relative;
   gap: 6vh;
 
+  box-sizing: border-box;
+
   z-index: 2;
 
   background: linear-gradient(to right, #13171a, black);
   box-shadow: 1px -80px 150px 1px black;
 
   padding-top: 1.1rem;
-  padding-bottom: 1.1rem;
+  padding-bottom: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -31,12 +33,20 @@
   justify-content: space-between;
 
   color: white;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.185);
+}
+
+.textContainer p {
+  height: 40px;
+  cursor: pointer;
 }
 
 .textContainer p:hover {
   color: rgba(255, 255, 255, 0.593);
   transition: all;
   transition-duration: 200ms;
+  border-bottom: 1px solid rgb(153, 250, 218);
 }
 
 .textContainer {
@@ -59,16 +69,27 @@
   cursor: pointer;
 
   position: absolute;
-  display: none;
+  display: flex;
 
   margin-bottom: 500px;
-  top: 65%;
+  top: 70%;
   right: 0;
   transform: translate(-100%, -50%);
+}
+
+.play {
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 @media only screen and (min-width: 768px) {
   .textContainer {
     gap: 14%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .play {
+    display: none;
   }
 }
