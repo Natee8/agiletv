@@ -1,6 +1,5 @@
 .bg {
   width: 100%;
-  height: auto;
   min-height: 30vh;
 
   display: flex;
@@ -9,6 +8,8 @@
   gap: 6vh;
 
   box-sizing: border-box;
+
+  overflow-x: hidden;
 
   z-index: 2;
 
@@ -19,6 +20,10 @@
   padding-bottom: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.bg::-webkit-scrollbar {
+  display: none;
 }
 
 .spacingElements {
